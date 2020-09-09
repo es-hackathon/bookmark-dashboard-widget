@@ -19,7 +19,7 @@ workflows:
           - save_cache:
               paths:
                 - node_modules
-              key: v1-dependencies-{{ checksum "package.lock" }}
+              key: v1-dependencies-{{ checksum "package.json" }}
           - run:
               name: Test
               command: npm test
