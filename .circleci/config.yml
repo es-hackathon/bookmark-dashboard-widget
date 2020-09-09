@@ -4,22 +4,4 @@ orbs:
 workflows:
   node-tests:
     jobs:
-      build:
-        docker:
-          - image: circleci/node:12
-        steps:
-          - checkout
-          - restore_cache:
-              keys:
-                - v1-dependencies-{{ checksum "package.json" }}
-                - v1-dependencies-
-          - run: 
-              name: Install
-              command: npm install 
-          - save_cache:
-              paths:
-                - node_modules
-              key: v1-dependencies-{{ checksum "package.lock" }}
-          - run:
-              name: Test
-              command: npm test
+      - node/test
