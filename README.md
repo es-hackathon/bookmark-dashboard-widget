@@ -29,7 +29,6 @@
   </p>
 </p>
 
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
@@ -37,5 +36,17 @@
 * [Getting Started](#getting-started)
 * [Features available in this project](#Features-available-in-this-project)
 * [Project description](#project-description)
-* [Design patterns Used](#roadmap)
 * [Licence Used](#Licence-Used)
+
+
+Getting Started
+
+```html
+  <widget-card title="Github" description="GitHub, Inc. is an American multinational corporation that provides 
+     hosting for software development and version control using Git. 
+     It offers the distributed version control and source code management functionality 
+     of Git, plus its own features" 
+     url="https://github.com/Amitpnk"
+     icon="bookmark"
+     date-modified="12 Sep 2020" >
+```
