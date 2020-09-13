@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ 
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+  cursor: pointer;
+  background-color: transparent;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-back {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  transform: rotateY(180deg);
+}
+
+.card li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.card-body-height {
+  height: 27vh;
+}
+
+.card-body-back-height {
+  height: 21vh;
+}
+
+.card-text-small {
+  font-size: 65%;
+  font-weight: 400;
+}
+
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
 }
