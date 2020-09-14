@@ -1,7 +1,7 @@
 ![Node.js Package](https://github.com/es-hackathon/bookmark-dashboard-widget/workflows/Node.js%20Package/badge.svg)
 [![CircleCI Status](https://circleci.com/gh/es-hackathon/bookmark-dashboard-widget.svg?style=shield&circle-token=71828a7c9872f3347186c8ff7097160b6889853f)](https://app.circleci.com/pipelines/github/es-hackathon/bookmark-dashboard-widget)
-[![react version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE)
+[![react version](https://img.shields.io/badge/react-v16.3.1-blue)](https://www.npmjs.com/package/react)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/es-hackathon/bookmark-dashboard-widget/blob/master/LICENSE)
 
 
 # Bookmark Dashboard Widget
@@ -21,7 +21,7 @@
     <a href="https://github.com/es-hackathon/bookmark-dashboard-widget"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/es-hackathon/bookmark-dashboard-widget">Download</a>
+    <a href="https://github.com/es-hackathon/bookmark-dashboard-widget/archive/develop.zip">Download</a>
     ·
     <a href="https://github.com/es-hackathon/bookmark-dashboard-widget/issues/new">Report Bug</a>
     ·
