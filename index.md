@@ -20,7 +20,7 @@
   <p align="center">
     Widgets cards which is re-usable and support for multiple  browser with concept of shadow dom 
     <br />
-    <a href="https://github.com/es-hackathon/bookmark-dashboard-widget"><strong>Explore the docs »</strong></a>
+    <a href="https://es-hackathon.github.io/bookmark-dashboard-widget/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/es-hackathon/bookmark-dashboard-widget/archive/develop.zip">Download</a>
