@@ -1,37 +1,98 @@
-## Welcome to GitHub Pages
+![Node.js Package](https://github.com/es-hackathon/bookmark-dashboard-widget/workflows/Node.js%20Package/badge.svg)
+[![CircleCI Status](https://circleci.com/gh/es-hackathon/bookmark-dashboard-widget.svg?style=shield&circle-token=71828a7c9872f3347186c8ff7097160b6889853f)](https://app.circleci.com/pipelines/github/es-hackathon/bookmark-dashboard-widget)
+[![react version](https://img.shields.io/badge/react-v16.3.1-blue)](https://www.npmjs.com/package/react)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/es-hackathon/bookmark-dashboard-widget/blob/master/LICENSE)
 
-You can use the [editor on GitHub](https://github.com/es-hackathon/bookmark-dashboard-widget/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Bookmark Dashboard Widget
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<br />
+<p align="center">
+  <a href="#">
+    <img src="docs/logo.png" alt="Logo" width="80" height="80">
+    <img src="docs/web-component.png" alt="Logo" width="80" height="80">
+    
+  </a>
 
-```markdown
-Syntax highlighted code block
+  <h3 align="center">Bookmark Dashboard Widget</h3>
 
-# Header 1
-## Header 2
-### Header 3
+  <p align="center">
+    Widgets cards which is re-usable and support for multiple  browser with concept of shadow dom 
+    <br />
+    <a href="https://github.com/es-hackathon/bookmark-dashboard-widget"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/es-hackathon/bookmark-dashboard-widget/archive/develop.zip">Download</a>
+    ·
+    <a href="https://github.com/es-hackathon/bookmark-dashboard-widget/issues/new">Report Bug</a>
+    ·
+    <a href="https://github.com/es-hackathon/bookmark-dashboard-widget/issues/new">Request Feature</a>
+  </p>
+</p>
 
-- Bulleted
-- List
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-1. Numbered
-2. List
+* [About the Project](#about-the-project)
+* [How to Run](#How-to-Run)
+* [Getting Started](#getting-started)
+* [Project description](#project-description)
+* [Licence Used](#Licence-Used)
 
-**Bold** and _Italic_ and `Code` text
+## About the Project
 
-[Link](url) and ![Image](src)
+Widgets cards which is re-usable and support for multiple  browser with concept of shadow dom 
+
+## How to Run
+
+```
+// Installing npm packages
+$ npm install 
+
+// Build application
+$ npm build
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Getting Started
 
-### Jekyll Themes
+To add to your application
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/es-hackathon/bookmark-dashboard-widget/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Step 1:
 
-### Support or Contact
+Add below cdn to your application
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```html
+<script type="text/javascript" src="<path>/widget-card.js”></script>
+```
+
+Step 2:
+
+
+```html
+  <widget-card title="Github" description="GitHub, Inc. is an American multinational corporation that provides 
+     hosting for software development and version control using Git. 
+     It offers the distributed version control and source code management functionality 
+     of Git, plus its own features" 
+     url="https://github.com/Amitpnk"
+     icon="bookmark"
+     date-modified="12 Sep 2020" >
+```
+
+## Project description
+
+### Back view of widget
+
+![Back-view.png](./docs/Back-view.png)
+
+### Front view of widget
+
+![Front-view.PNG](./docs/Front-view.png)
+
+### Flip view of widget
+
+![Flip-view.png](./docs/Flip-view.png)
+
+### Shadow dom
+
+![Shadow-dom.png](./docs/Shadow-dom.png)
