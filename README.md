@@ -11,6 +11,8 @@
 <p align="center">
   <a href="#">
     <img src="docs/logo.png" alt="Logo" width="80" height="80">
+    <img src="docs/web-component.png" alt="Logo" width="80" height="80">
+    
   </a>
 
   <h3 align="center">Bookmark Dashboard Widget</h3>
@@ -33,13 +35,39 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
+* [How to Run](#How-to-Run)
 * [Getting Started](#getting-started)
-* [Features available in this project](#Features-available-in-this-project)
 * [Project description](#project-description)
 * [Licence Used](#Licence-Used)
 
+## About the Project
 
-Getting Started
+Widgets cards which is re-usable and support for multiple  browser with concept of shadow dom 
+
+## How to Run
+
+```
+// Installing npm packages
+$ npm install 
+
+// Build application
+$ npm build
+```
+
+## Getting Started
+
+To add to your application
+
+Step 1:
+
+Add below cdn to your application
+
+```html
+<script type="text/javascript" src="<path>/widget-card.js”></script>
+```
+
+Step 2:
+
 
 ```html
   <widget-card title="Github" description="GitHub, Inc. is an American multinational corporation that provides 
@@ -50,3 +78,21 @@ Getting Started
      icon="bookmark"
      date-modified="12 Sep 2020" >
 ```
+
+## Project description
+
+### Back view of widget
+
+![Back-view.png](./docs/Back-view.png)
+
+### Front view of widget
+
+![Front-view.PNG](./docs/Front-view.png)
+
+### Flip view of widget
+
+![Flip-view.png](./docs/Flip-view.png)
+
+### Shadow dom
+
+![Shadow-dom.png](./docs/Shadow-dom.png)
